@@ -1,0 +1,20 @@
+<br>
+<h4>Brani</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Artista</th>
+            <th>Durata</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of brani" >
+            <td>{{ s.id }}</td>
+            <td>{{ s.nome }}</td>
+            <td>{{ s.artista }}</td>
+            <td>{{ s.durata }}</td>
+        </tr>
+    </tbody>
+</table>
